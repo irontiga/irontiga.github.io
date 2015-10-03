@@ -1,0 +1,45 @@
+.my-sidebar .collapsible{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+.col.my-sidebar{
+	height:100vh;
+	padding:0;
+	overflow:hidden;
+}
+.col.my-sidebar:hover{
+	height:100vh;
+	padding:0;
+	overflow:auto;
+}
+.sidebar-header{
+	height:200px;
+	padding:20px;
+}
+.col.page-body{
+	padding:0;
+	height:100vh;
+}
+.page-body .valign-wrapper{
+	height:100%;
+	padding: 0 20px;
+	width:100%;
+}
+.page-body .valign-wrapper .valign{
+	width:100%;
+}
+.fixed{
+	position:fixed;
+}
+
+.material-icons{
+	line-height: inherit;
+	position: relative;
+	bottom:-0.5rem;
+	font-size: 24px;
+	padding-right:0.5rem;
+}
+h2 .material-icons{
+	font-size: 48px;
+}
