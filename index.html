@@ -11,29 +11,37 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
-		<div id='background-changer' data-anchor-target="#top-white-text-anchor" data-top="opacity:1;" data-center="opacity:0;"></div>
+		<div id='background-changer' class="red" data-anchor-target="#top-white-text-anchor" data-top="opacity:1;" data-center="opacity:0;"></div>
 		<main>
 			<div class='h-100 w-100 valign-wrapper'>
-				<div id='intro-card' data-anchor-target="#intro-card-anchor" class="card white darken-1 valign div-center" data-top="opacity:0; display:none;" data-bottom="opacity:1;display:block;">
-					<div class="card-content red-text">
-						<h2 class='text-shadow-1'>IRONTIGA</h2>
-						<div class="terminal">
-							<div class='terminal-header green white-text'><p>irontiga@server$</p></div>
-							<div class='terminal-body black'>
-								<p>
-									<span class='white-text'>irontiga@server$</span> Web
-									<br>
-									<span class='white-text'>irontiga@server$</span> Backend
-									<br>
-									<span class='white-text'>irontiga@server$</span> Design
-								</p>
+				<div class="valign div-center" id='intro-card'>
+					<div data-anchor-target="#intro-card-anchor" class="card white" data-top="opacity:0; display:none;" data-bottom="opacity:1;display:block;">
+						<div class="card-content red-text">
+							<h2 class='text-shadow-1'>IRONTIGA</h2>
+							<div class="terminal">
+								<div class='terminal-header indigo darken-4 white-text'><p>irontiga@server$</p></div>
+								<div class='terminal-body black'>
+									<p>
+										<span class='white-text'>irontiga@server$</span> Web
+										<br>
+										<span class='white-text'>irontiga@server$</span> Backend
+										<br>
+										<span class='white-text'>irontiga@server$</span> Design
+									</p>
+								</div>
 							</div>
 						</div>
+						<div class="card-action">
+							<a class="red-text" href='mailto:me@irontiga.com'><i class='material-icons'>message</i> Contact me</a>
+							<a class="tooltipped red-text right" data-position="bottom" data-delay="50" data-tooltip="I'm on Github" href="http://github.com/irontiga"><span class="mega-octicon octicon-mark-github deep-orange white-text"></span></a>
+						</div>
 					</div>
-					<div class="card-action">
-						<a class="red-text" href='mailto:me@irontiga.com'><i class='material-icons'>message</i> Contact me</a>
-						<a class="tooltipped red-text right" data-position="bottom" data-delay="50" data-tooltip="I'm on Github" href="http://github.com/irontiga"><span class="mega-octicon octicon-mark-github deep-orange white-text"></span></a>
-					</div>
+					<p class="center grey-text">
+						<br>
+						Scroll down
+						<br>
+						<a href="#!"><i class="material-icons">keyboard_arrow_down</i></a>
+					</p>
 				</div>
 				<div id="intro-card-anchor" class="bottom-align"></div>
 			</div>
@@ -41,7 +49,7 @@
 				<div id="top-white-text" class="fixed-center white-text" data-anchor-target="#top-white-text-anchor" data-bottom="opacity:0;" data-center="opacity:0;" data-top="opacity:1;" data--300-top="opacity:1;" data--500-top="opacity:0;">
 					<h1>Hello world!</h1>
 					<p>
-						I'm stoked that you've come across my website, and would love to show you some of the awesome things I'm busy with. This isn't an ordinary wesbite. Go on, scroll down, have fun
+						I'm stoked that you've come across my website, and would love to show you some of the awesome things I'm busy with. This isn't an ordinary wesbite, so go on, scroll down, have fun
 					</p>
 				</div>
 				<div id="top-white-text-anchor" class="bottom-align"></div>

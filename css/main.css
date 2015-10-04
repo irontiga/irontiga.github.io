@@ -42,7 +42,6 @@ h2 .material-icons{
 #background-changer{
 	position:fixed;
 	opacity:0;
-	background-color:#d84315;
 	height:100%;
 	width:100%;
 	z-index:-10;
